@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Bangladesh</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"> Railway<span>BD</span></a>
+    
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">E-Book</a>
+        <a href="#city">Visit</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    
+}
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="php/login.php" method="POST">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="Enter your email" name="email">
+        <input type="password" class="box" placeholder="Enter your password" name="password">
+        <input type="submit" value="login now" class="btn" name="submit">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+
+    <div class="content">
+        <h3>Railway Of Bangladesh</h3>
+        <p>Enabling the Safe, Reliable, and Efficient Movement of People and Goods</p>
+        <a href="https://en.wikipedia.org/wiki/Bangladesh_Railway" class="btn" target="_blank">Discover More</a>
+    </div>
+
+    
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1>Online Ticket Booking</h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/img5.jpg" alt="">
+        </div>
+
+        <form action="php/connect1.php" method="POST">
+            <div class="inputBox">
+                <h3>Where From</h3>
+                <input type="text" placeholder="Place name" name="from">
+            </div>
+            <div class="inputBox">
+                <h3>Where to</h3>
+                <input type="text" placeholder="Place name" name="to">
+            </div>
+            <div class="inputBox">
+                <h3>How Many</h3>
+                <input type="number" placeholder="Number Of Guests" name="how">
+            </div>
+            <div class="inputBox">
+                <h3>Depart</h3>
+                <input type="date" name="date">
+            </div>
+            
+            <input type="submit" class="btn" class="btn btn-primary" name="submit" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="city" id="city">
+
+    <h1 class="heading">
+        You Can Visit Here
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/imgd.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Dhaka </h3>
+                <p>Dhaka is the capital city of Bangladesh, in southern Asia. Set beside the Buriganga River, it’s at the center of national government, trade and culture. The 17th-century old city was the Mughal capital of Bengal, and many palaces and mosques remain. American architect Louis Khan’s National Parliament House complex typifies the huge, fast-growing modern metropolis.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="https://goo.gl/maps/6vWFr5DQ1yMwwYrVA" target="_blank" class="btn">Vist Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/imgr.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Rajshahi </h3>
+                <p>Rajshahi is a metropolitan city, and a major urban, commercial and educational centre of Bangladesh. It is also the administrative seat of eponymous division and district. Located on the north bank of the Padma River, near the Bangladesh-India border, the city has a population of over 763,952 residents</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="https://goo.gl/maps/npmnP2zf5r2CRRh46"target="_blank" class="btn">Visit Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/imgk1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Khulna </h3>
+                <p>Khulna is the third largest city in Bangladesh after Dhaka and Chittagong.It is the administrative territory of Khulna District and Khulna Division.The economy of Khulna is the third largest in the People's Republic of Bangladesh contributing $53 billion in nominal gross state product and $95 billion in purchasing power parity (PPP) terms as of 2020.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="https://goo.gl/maps/pVHxQCzEHZ5dyzoE7"target="_blank" class="btn">Visit Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/imgcx.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Cox's Bazar </h3>
+                <p>Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts. South of town, the tropical rainforest of Himchari National Park has waterfalls and many birds. North, sea turtles breed on nearby Sonadia Island.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="https://goo.gl/maps/mrD2epmBcEqTnVWk9" target="_blank" class="btn">Visit Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/imgc.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Chittagong</h3>
+                <p>Chittagong is large port city on the southeastern coast of Bangladesh. The Ethnological Museum has exhibits about the many different ethnic tribes across the country. Zia Memorial Museum, inside the former Old Circuit House, displays items belonging to former president Ziaur Rahman, who was assassinated on the site in 1981. The landmark Chandanpura Mosque has many onion-shaped domes and brightly painted minarets.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="https://goo.gl/maps/AFUbSDTkMSLxa6Ag9" target="_blank" class="btn">Visit Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/imgs.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Sylhet </h3>
+                <p>Sylhet is a city in eastern Bangladesh, on the Surma River. It’s known for its Sufi shrines, like the ornate tomb and mosque of 14th-century saint Hazrat Shah Jalal, now a major pilgrimage site near Dargah Gate. The tiny Museum of Rajas contains belongings of the local folk poet Hasan Raja. A 3-domed gateway stands at the 17th-century Shahi Eidgah, a huge open-air hilltop mosque built by Emperor Aurangzeb.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="https://goo.gl/maps/tpZxrXWnfWSdwQND6" target="_blank" class="btn">Visit Now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 >Service </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-train"></i>
+            <a href="images/wpdf.pdf"><h3>Train Schedule</h3></a>
+            <p>View Train Status,Download Current Schedule,Cleaning and Face Masks,Holiday Schedule</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-shopping-cart"></i>
+           <a href="https://www.globaltrade.net/Bangladesh/Railway-Freight/detailed-service-provider.html"><h3> Rail Freight Transport</h3></a>
+            <p>Rail freight transport is commonly used to ship cargo, including bulk cargo and consumer goods such as household cleaning products, batteries, and paint.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+           <a href="https://www.police.gov.bd/en/railway_police"> <h3>Commited To Safety</h3></a>
+            <p>The CP Police Service works closely with communities, other law enforcement and government agencies to promote railway safety and ​​​​​​infrastructure security. We have police officers assigned to over 25 field offices responsible for railway police operations across the Bangladesh Pacific rail network</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+           <a href="http://railway.portal.gov.bd/site/page/77c1d629-0270-4ac4-9b5d-18d75d9adffe"><h3>Travel Golbaly</h3></a>
+            <p>Traveling by train is a great way to see a destination and add variety to your mode of transport – from luxury journeys to speedy bullet trains and large regional rail networks, there’s a plethora of options to choose from. So, why not take the train for your next adventure?</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-train"></i>
+            <h3>Fastest Travel</h3>
+            <p>The Dhaka–Chittagong high-speed railway is a proposed high-speed rail line connecting the Dhaka, Dhaka Division, Bangladesh's capital and largest city, with the southeast harbor city of Chittagong, Chittagong Division.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-check"></i>
+           <a href="http://railway.portal.gov.bd/site/view/tenders/%E0%A6%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0/NOA/EOI-%E0%A6%A8%E0%A7%8B%E0%A6%9F%E0%A6%BF%E0%A6%B6"> <h3>Notice</h3></a>
+            <p>Here You find all notice of government of railway Deparment</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1>Gallery</h1>
+    
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/s1.jpg" alt="" >
+            <div class="content">
+                <p>Contract Signing Ceremony Between Bangladesh Railway and JV of CNTIC-RAILTECO-JINXI, China .</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/s2.jpg" alt="">
+            <div class="content">
+               
+                <p>Train With beautiful Place</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/s3.jpg" alt="">
+            <div class="content">
+              
+                <p>Contract Signing for railway development</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/s5.jpg" alt="">
+            <div class="content">
+             
+                <p>Handover Ceremony of 10 BG Locomotives to Bangladesh Railway by Indian Railways</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/s6.jpg" alt="">
+            <div class="content">
+               
+                <p>Handover Ceremony of 10 BG Locomotives to Bangladesh Railway by Indian Railways</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/s7.jpeg" alt="">
+            <div class="content">
+                
+                <p>Horizontal Learning Program in Bangladesh Railway (West Zone).</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/s8.jpg" alt="">
+            <div class="content">
+              
+                <p>Beautiful Place</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/s9.jpg" alt="">
+            <div class="content">
+               
+                <p>Beautiful Place</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/s10.jpg" alt="">
+            <div class="content">
+            
+                <p>Horizontal Learning Program in Bangladesh Railway (West Zone)</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+    <h1> About Us</h1>
+   <div class="full_container">
+    <div class="image">
+        <img src="images/ra.jpg" alt="">
+    </div>
+    <div class="details">
+        <h4>Here is About Railway Deparment</h4>
+        <br><br>
+        <div class="child">
+        <h3><a href="sechedul.html"><i class="fas fa-caret-square-right"></i>Overview</a></h3>
+        </div>
+
+        <div class="child">
+            <h3><a href="vision.html"><i class="fas fa-caret-square-right"></i>Vision And Mission</a></h3>
+         </div>
+
+         <div class="child">
+           <h3><a href="organism.html"><i class="fas fa-caret-square-right"></i>Bangladesh Railway Organogram</a></h3>
+         </div>
+
+         <div class="child">
+            <h3><a href="http://railway.portal.gov.bd/sites/default/files/files/railway.portal.gov.bd/page/c3cf786b_f575_4e66_aed8_358e4e8e0d60/bANGLADESH%20MAP.fINAL_pages-to-jpg-0001.jpg" target="_blank"><i class="fas fa-caret-square-right"></i>Bangladesh Railway Network</a></h3>
+            </div>  
+
+            <div class="child">
+                <h3><a href=""><i class="fas fa-caret-square-right"></i>Railway Ministry</a></h3>
+                </div>
+
+                <div class="child">
+                    <h3><a href="https://railway.portal.gov.bd/site/view/officer_list/%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%AC%E0%A7%83%E0%A6%A8%E0%A7%8D%E0%A6%A6" target="_blank"><i class="fas fa-caret-square-right"></i>Railway Deparment Officers</a></h3>
+                    </div>
+                    <div class="child">
+                        <h3><a href="https://railway.portal.gov.bd/site/page/8e5a704d-72e2-4d69-b443-21988229cbbc/%E0%A6%AD%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%AF%E0%A7%8E-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%A8%E0%A6%BE" target="_blank"><i class="fas fa-caret-square-right"></i>Future Plan</a></h3>
+                        </div>        
+    </div>
+   </div>
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1>Contract Us</h1>
+
+    <div class="row">
+
+        <div class="image">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.5623634527037!2d90.4032701149809!3d23.727317484600725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8f0809e5819%3A0x3443ec3c4732aeb8!2sMinistry%20of%20Railways!5e0!3m2!1sen!2sbd!4v1628074159698!5m2!1sen!2sbd"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <form action="php/contract.php"method="POST">
+            <div class="inputBox">
+                <input type="text" placeholder="Your Name" name="name">
+                <input type="email" placeholder="Enter your Email" name="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Phone Number" name="phone">
+                <input type="text" placeholder="Subject" name="subject">
+            </div>
+            <textarea placeholder="Type Your Message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="Send Message" name="message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>About Us</h3>
+            <p>The Ministry of Railways (abbreviated as MoR) is the ministry responsible for the railways and train services in Bangladesh. It was formed in 2011. Previous rail services were part of the ministry of communication.</p>
+        </div>
+        <div class="box">
+            <h3>Country You Can Visit</h3>
+            <a href="#">India</a>
+            <a href="#">USA</a>
+            <a href="#">Japan</a>
+            <a href="#">France</a>
+        </div>
+        <div class="box">
+            <h3>Important Link</h3>
+            <a href="#">Railway Ministry</a>
+            <a href="#">Ministry of Finance</a>
+            <a href="#">Ministry Of Foreign Affairs</a>
+            <a href="#">Ministry of Education</a>
+            <a href="#">Ministry of Health and Family Welfare</a>
+            <a href="#">Ministry Of Food</a>
+            <a href="#">Bangladesh Batayan</a>
+        </div>
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> Created by <span> Hazrat Ali </span> | all rights reserved! </h1>
+
+
+</section>
+
+<!--Java Script-->
+
+ <script src="js/script.js"></script>
+
+<script>
+
+        formBtn.addEventListener('click', () =>{
+         loginForm.classList.add('active');});
+
+        formClose.addEventListener('click', () =>{
+          loginForm.classList.remove('active'); });
+</script>
+
+</body>
+</html>
